@@ -7,8 +7,8 @@ p = int(p)
 tab = np.array([],type(int)) # tablica procesow
 for i in range(0,p):
     t1 = random.randint(100) # generowanie czasu przyjscia
-    t2 = random.randint(1,10) # generowanie dlugsci wykonywania procesu
-    #t2 = random.randint(2, t1+4) # generowanie dlugsci wykonywania procesu
+    t2 = random.randint(1,10) # generowanie dlugsci wykonywania procesu - losowo
+    #t2 = random.randint(2, t1+4) # generowanie dlugsci wykonywania procesu - rośnie z czasem
     p1 = np.array([t1, t2])
     #print(p1)
     tab = np.append(tab, [0])

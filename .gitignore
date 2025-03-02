@@ -5,3 +5,4 @@ __pycache__/
 .venv/
 Wynik_FCFS.txt
 Wynik_LCFS.txt
+Wynik.txt
